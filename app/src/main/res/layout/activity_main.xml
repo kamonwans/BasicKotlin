@@ -7,18 +7,23 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:layout_margin="10dp"
+        android:layout_margin="8dp"
         android:id="@+id/editText"
         android:text="Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
-        android:layout_margin="10dp"
+        android:layout_margin="8dp"
         android:layout_gravity="center"
         android:text="Run"
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
